@@ -834,7 +834,7 @@ address {
     padding-bottom: 94px;
     padding-top: 94px;
 }
-.client-title{
+.client__title{
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -870,7 +870,7 @@ address {
     border-color: var(--accent-color);
 }
 
-
+/* ----------------------------------------------------------------------------------------------------------------------------------------------------------- */
 .footer-slogan{
     margin-left: 70px;
 
