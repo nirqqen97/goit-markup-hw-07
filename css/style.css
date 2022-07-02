@@ -243,6 +243,7 @@ address {
 /* -----------------------------------------------Header------------------------------------------------------------------------------- */
 /* -----------------------------------------------nav------------------------------------------------------------------------------- */
 
+/* 
 .nav__item {
     margin-right: 50px;
     box-sizing: border-box;
@@ -294,7 +295,7 @@ address {
 .nav__link:focus,
 .nav__link:hover {
     color: var(--accent-color)
-}
+} */
 
 /* -----------------------------------------------nav------------------------------------------------------------------------------- */
 
@@ -306,7 +307,7 @@ address {
 
 /*---------------------------------hero-------------------------*/
 
-.hero {
+/* .hero {
     background-color: var(--header-background-color);
     background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
         url(../1/Background.jpg);
@@ -358,10 +359,14 @@ address {
 .hero-btn:hover {
     background-color: #188ce8;
 
-}
+} */
 
 /*---------------------------------about-------------------------*/
-.about-top-text {
+
+
+
+
+/* .about-top-text {
     position: absolute;
     bottom: 0;
     font-weight: 700;
@@ -444,7 +449,7 @@ address {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--second-text-color)
-}
+} */
 
 /*---------------------------------about-second-------------------------*/
 .about-second-list {
