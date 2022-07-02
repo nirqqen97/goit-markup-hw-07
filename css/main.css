@@ -1,4 +1,3 @@
-body {
-  color: teal;
-}
+@import url(./_header.scss);
+@import url(./_hero.scss);
 /*# sourceMappingURL=main.css.map */
