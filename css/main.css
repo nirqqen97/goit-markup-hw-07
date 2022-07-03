@@ -1,5 +1,5 @@
 @import url(./header.scss);
-@import url(./_nav.scss);
+@import url(./components/_nav.scss);
 @import url(./_hero.scss);
 @import url(./_about.scss);
 /*# sourceMappingURL=main.css.map */
