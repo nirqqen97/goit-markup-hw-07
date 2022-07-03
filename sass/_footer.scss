@@ -28,12 +28,14 @@
     padding-left: 10px;
     color: #FFFFFF;
     outline: none;
+
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+    }
 }
 
-.footer-input:hover,
-.footer-input:focus {
-    border-color: var(--accent-color);
-}
+
 
 .team-soc-link-footer {
     width: 100%;
@@ -72,14 +74,15 @@
 
 
 
-.footer .container {
-    display: flex;
-    align-items: baseline;
-}
 
 .footer {
     padding-bottom: 60px;
     padding-top: 60px;
+
+    .container {
+        display: flex;
+        align-items: baseline;
+    }
 }
 
 .header-logo-footer {

@@ -8,19 +8,22 @@
     border-radius: 4px;
     margin-right: 30px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+        fill: var(--accent-color);
+        border-color: var(--accent-color);
+
+    }
+
+    &:hover .client-item,
+    &:focus .client-item {
+        border-color: var(--accent-color);
+    }
 }
 
-.client-soc-link:hover,
-.client-soc-link:focus {
-    fill: var(--accent-color);
-    border-color: var(--accent-color);
 
-}
 
-.client-soc-link:hover .client-item,
-.client-soc-link:focus .client-item {
-    border-color: var(--accent-color);
-}
 
 .client-soc-link {
     width: 100%;
@@ -56,22 +59,25 @@
     height: 92px;
     margin-right: 30px;
 
+    &:hover,
+    &:focus {
+        border-color: var(--accent-color);
+    }
 
+    &:last-child {
+        margin-right: 0px;
+    }
+
+    &:hover .client-soc-link,
+    &:focus .client-soc-link {
+        fill: var(--accent-color);
+    }
 }
 
-.client-item:last-child {
-    margin-right: 0px;
-}
 
-.client-item:hover,
-.client-item:focus {
-    border-color: var(--accent-color);
-}
 
-.client-item:hover .client-soc-link,
-.client-item:focus .client-soc-link {
-    fill: var(--accent-color);
-}
+
+
 
 .current-client {
     fill: var(--accent-color);
