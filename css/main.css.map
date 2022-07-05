@@ -16,7 +16,7 @@
         "../sass/_footer.scss",
         "../sass/utils/_is-hiden.scss",
         "../sass/components/_modal.scss",
-        "../sass/utils/_vars.scss",
+        "../sass/utils/_varss.scss",
         "../sass/utils/_base.scss",
         "../sass/utils/_container.scss"
     ],
